@@ -90,13 +90,13 @@ export default function Navbar() {
           <nav className="hidden lg:flex items-center gap-6">
             <Link
               href="/"
-              className="text-sm font-body text-concrete-gray hover:text-amber-brand transition-colors tracking-wide uppercase"
+              className="text-sm font-body text-concrete-offwhite hover:text-amber-brand transition-colors tracking-wide uppercase"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="text-sm font-body text-concrete-gray hover:text-amber-brand transition-colors tracking-wide uppercase"
+              className="text-sm font-body text-concrete-offwhite hover:text-amber-brand transition-colors tracking-wide uppercase"
             >
               About
             </Link>
@@ -105,7 +105,7 @@ export default function Navbar() {
             <div ref={dropdownRef} className="relative">
               <button
                 onClick={() => setServicesOpen(!servicesOpen)}
-                className="flex items-center gap-1 text-sm font-body text-concrete-gray hover:text-amber-brand transition-colors tracking-wide uppercase"
+                className="flex items-center gap-1 text-sm font-body text-concrete-offwhite hover:text-amber-brand transition-colors tracking-wide uppercase"
               >
                 Services
                 <ChevronDown
@@ -163,7 +163,7 @@ export default function Navbar() {
                 <Link
                   key={label}
                   href={href}
-                  className="text-sm font-body text-concrete-gray hover:text-amber-brand transition-colors tracking-wide uppercase"
+                  className="text-sm font-body text-concrete-offwhite hover:text-amber-brand transition-colors tracking-wide uppercase"
                 >
                   {label}
                 </Link>
